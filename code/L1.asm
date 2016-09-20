@@ -10,7 +10,8 @@ add
 mov A E
 res A D
 ; F = N3 * N3
-mov F B C
+mov F C
+mov F B
 multiply:
     jmp next CL
         mov B L
